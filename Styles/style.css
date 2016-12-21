@@ -1,0 +1,121 @@
+body{
+	font-size: 10px;
+}
+
+
+.color-rosa{
+	color:pink;
+}
+
+h3, p{
+		font-family: Roboto, sans-serif;
+}
+
+article h3.titulo{
+	color:green;
+}
+
+.titulo{
+	font-size: 80px;
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+
+
+	/* poner todo en mayúscula y subrayado */
+
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: Roboto, sans-serif;
+}
+
+.cuadrado{
+	height: 200px;
+	width: 200px;
+	background:blue;
+	border-top: 4px solid red;
+	border-left: 10px dotted yellow;
+	border-bottom: 3px double pink;
+	border-right: 4px dashed orange;
+}
+
+.boton{
+	background: red;
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.boton:hover{
+	background: blue;
+	color: yellow;
+}
+
+.elementos{
+	color:red;
+}
+
+.elementos li:first-child{
+	color:blue;}
+
+.elementos li:last-child{
+	color:green;
+}
+
+.elementos li:nth-child(2){
+	color:pink;
+}
+
+.elementos li:nth-child(odd){
+	background: gray;
+}
+
+.circulo{
+		border: 3px solid yellow;
+		height:200px;
+		width:200px;
+		border-radius: 50%;
+		box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.circulo1{	
+	background: red;	
+}
+
+.circulo2{
+	background: blue;
+}
+
+.circulo3{
+	background: green;
+	
+}
+
+p{
+	line-height: 2;
+	letter-spacing: 5px;
+}
+
+.icono{
+	font-size:200px;
+}
+
+.social{
+	list-style: none;
+}
+
+.ion-social-facebook{
+	color:#3b5998;
+}
+
+.ion-social-instagram{
+	color:#e95950;
+}
+
+.ion-social-twitter{
+	color:#55acee;
+}
+
+.ion-social-linkedin{
+	color:#007bb5;
+}
